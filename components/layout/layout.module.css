@@ -1,0 +1,10 @@
+.pageContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 1024px) {
+  .pageContainer {
+    grid-template-columns: auto 1fr;
+  }
+}
