@@ -9,3 +9,7 @@ body {
 body {
   background-color: #f8f8fb;
 }
+
+:root {
+  --primary-color: #7c5dfa;
+}

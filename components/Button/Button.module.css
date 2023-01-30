@@ -1,0 +1,36 @@
+.btn {
+  border-width: 0;
+  border-radius: 24px;
+  padding: 16px 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.btn__default {
+  background-color: #f9fafe;
+  color: #7e88c3;
+}
+
+.btn__default:hover {
+  background-color: #dfe3fa;
+}
+
+.btn__primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn__primary:hover {
+  background-color: #9277ff;
+}
+
+.btn__critical {
+  background-color: #ec5757;
+  color: white;
+}
+
+.btn__critical:hover {
+  background-color: #ff9797;
+}

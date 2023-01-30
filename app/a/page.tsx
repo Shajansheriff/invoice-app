@@ -1,8 +1,12 @@
+import { Button } from "@/components";
 import styles from "./page.module.css";
 export default function AppPage() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
+        <Button label="Mark as Pain" />
+        <Button intent="critical" label="Mark as Pain" />
+        <Button intent="primary" label="Mark as Pain" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin arcu
           magna, pellentesque sed libero sed, tempor euismod elit. Etiam non
