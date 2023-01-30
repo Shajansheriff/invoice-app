@@ -1,10 +1,12 @@
+*,
 body {
   margin: 0;
 }
-/* html,
+
+html,
 body {
   height: 100%;
-} */
+}
 
 body {
   background-color: #f8f8fb;
